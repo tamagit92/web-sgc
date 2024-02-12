@@ -16,5 +16,13 @@ const navMenu = document.querySelector('#nav-menu');
 
 hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('hamburger-active');
-    // navMenu.classList.toggle('hidden');
+    navMenu.classList.toggle('tampilkan');
+});
+
+//list toggle
+const listNav = document.querySelector('ul');
+
+listNav.addEventListener('click', function(){
+    hamburger.classList.toggle('hamburger-active');
+    navMenu.classList.toggle('tampilkan');
 });
